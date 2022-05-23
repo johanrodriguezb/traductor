@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <title>Traductor</title>
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">Acerca de nosotros</h4>
+                        <p class="text-white">Aplicación creada para la optimización de traducción en tirmpo real</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contacto</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Siguenos en Twitter</a></li>
+                            <li><a href="#" class="text-white">Siguenos en Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+                        viewBox="0 0 24 24">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                        <circle cx="12" cy="13" r="4" />
+                    </svg>
+                    <strong>Traductor</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div class="col-md-12 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 fw-normal">Traducción al Instante</h1>
+                <p class="lead fw-normal">Encontrarás apartados de traducción, sugerencias y palabras puntuales.</p>
+                <a class="btn btn-primary" href="#">Comienza ahora</a>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+        
+    </main>
+    <hr>
+    <br>
+    <div class="container">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-md-4">
+                <img width="250" src="img/traductor-online.png" alt="">
+
+                <h2 class="fw-normal">Traducir frases</h2>
+                <p>podrás traducir frases continuas según tu necesidad</p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Iniciar
+                </button>
+
+
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <img width="250" src="img/traductor.png" alt="">
+
+                <h2 class="fw-normal">Traducir Palabras</h2>
+                <p>Traduccion de palabras en tiempo real</p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Buscar
+                </button>
+
+
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <img width="250" src="img/sugerencia.png" alt="">
+                <h2 class="fw-normal">Sugerencias</h2>
+                <p>Escribenos tus sugerencias o agrega palabras que consideres importantes</p>
+                <p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">
+                        Registrar
+                    </button>
+                </p>
+
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+    <!-- Modal1 -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg bg-primary">
+                    <h3 class="modal-title text-white" id="exampleModalLabel">Traducir Frases</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <label for="">Selecciona un idioma</label>
+                        <p>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecciona</option>
+                                <option value="1">Español</option>
+                                <option value="2">Ingles</option>
+                                <option value="3">Frances</option>
+                            </select>
+                        </p>
+                        <p>VS</p>
+                        <label for="">Selecciona un idioma</label>
+                        <p>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecciona</option>
+                                <option value="1">Español</option>
+                                <option value="2">Ingles</option>
+                                <option value="3">Frances</option>
+                            </select>
+                        </p>
+                        <label for="">Ingresa el texto</label>
+                        <p>
+                            <textarea class="form-control" name="" id="" cols="30" rows="10"
+                                placeholder="Traduciendo..."></textarea>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal2
+     -->
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg bg-primary">
+                    <h3 class="modal-title text-white" id="exampleModalLabel">Traducir Palabras</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <label for=""><strong> Ingresa tu palabra</strong></label>
+                        <p>
+                            <br>
+                            <textarea class="form-control" name="" id="" cols="10" rows="10"></textarea>
+                        </p>
+                        <p><strong>Traducción...</strong></p>
+                        <p>
+                            <br>
+                            <textarea class="form-control" name="" id="" cols="10" rows="10"></textarea>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal3
+     -->
+
+     <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg bg-primary">
+                    <h3 class="modal-title text-white" id="exampleModalLabel">Registrar</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <label for=""><strong> Ingresa tu Nombre</strong></label>
+                        <input type="text" class="form-control">
+
+                        <label for=""><strong> Ingresa tu Correo</strong></label>
+                        <input type="text" class="form-control">
+                        <br>
+                        <p><strong>Ingresa tu sugerencia</strong></p>
+                        <p>
+                            <br>
+                            <textarea class="form-control" name="" id="" cols="10" rows="10"></textarea>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Registrar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
